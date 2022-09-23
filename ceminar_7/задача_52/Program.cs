@@ -13,9 +13,9 @@ for (int j = 0; j < number.GetLength(1); j++)
         avarage = (avarage + number[i, j]);
     }
     avarage = avarage / n;
-    Console.Write(avarage + "; ");
+    Console.Write(avarage + "; ",2);
 }
-
+Console.WriteLine();
 PrintArray(number);
 
 void FillArray(int[,] array)

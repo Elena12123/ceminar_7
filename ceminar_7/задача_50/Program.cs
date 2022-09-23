@@ -24,6 +24,7 @@ void FillArrayNumber(int[,] array)
             {
                 array [i,j] = new Random().Next(1, 100);
             }   
+
         }
 }
 
